@@ -14,7 +14,13 @@
     <artifactId>spring-core</artifactId>
     <version>6.1.4</version>
 </dependency>
-
+ <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-war-plugin</artifactId>
+        <version>3.3.1</version>
+      </plugin>
+    </plugins>
     <dependency>
 
       <groupId>junit</groupId>
